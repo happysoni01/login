@@ -49,8 +49,8 @@ const App=()=>{
         <KeyRound size={30} />
         <input onChange={passwordChange} type="password" placeholder="Set Your Password" />
         </div>
-        <p>Forgot Password</p>
         </div>
+        <p>Forgot Password</p>
         <button onClick={submit} className='btn'>Login Now <ChevronRight size={18} color="#ffffff" strokeWidth={4} style={{ background: 'transparent' }} /></button>
         <hr />
         <button > Sign In with Google</button>
